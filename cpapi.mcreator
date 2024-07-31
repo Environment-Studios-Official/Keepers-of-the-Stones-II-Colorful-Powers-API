@@ -1,0 +1,35 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cpapi",
+    "modName": "Colorful Powers API",
+    "version": "11",
+    "description": "This mod is a tool for creating mods with magical artifacts and powers compatible with the Keepers of the Stones II mod",
+    "author": "Environment Studios",
+    "websiteURL": "https://esmods.com",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [
+      "power"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Created by Environment Studios",
+    "modElementsPackage": "com.esmods.cpapi"
+  },
+  "mcreatorVersion": 202400229712
+}
