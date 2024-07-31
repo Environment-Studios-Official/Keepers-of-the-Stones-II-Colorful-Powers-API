@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="cpapi"
+version="11"
+displayName="Keepers of the Stones II: Colorful Powers API"
+displayURL="https://esmods.com"
+logoFile="logo.png"
+credits="Created by Environment Studios"
+authors="Environment Studios"
+description="This mod is a tool for creating mods with magical artifacts and powers compatible with the Keepers of the Stones II mod"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.cpapi]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.cpapi]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.cpapi]]
+    modId="power"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
