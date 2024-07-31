@@ -27,7 +27,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created by Environment Studios",
     "modElementsPackage": "com.esmods.cpapi"
   },

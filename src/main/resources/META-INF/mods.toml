@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[2,)"
+loaderVersion="[47,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
@@ -16,22 +16,15 @@ description="This mod is a tool for creating mods with magical artifacts and pow
 # End of user code block mod configuration
 
 [[dependencies.cpapi]]
-    modId="neoforge"
-    type="required"
-    versionRange="[20.4.223,)"
-    ordering="AFTER"
-    side="BOTH"
-
-[[dependencies.cpapi]]
     modId="minecraft"
-    type="required"
-    versionRange="[1.20.4]"
+    mandatory=true
+    versionRange="[1.20.1]"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.cpapi]]
     modId="power"
-    type="required"
+    mandatory=true
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
